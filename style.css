@@ -1,0 +1,69 @@
+html, body, #viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Avenir Next", Arial, sans-serif;
+}
+
+.esri-ui-top-right, .esri-ui-top-left, .esri-ui-bottom-right {
+    padding: 15px;
+}
+
+.esri-component {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+.esri-widget--button {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#descriptionBox {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    z-index: 10; /* Ensure it's above the map */
+}
+
+#descriptionBox h2 {
+    font-weight: 600;
+    margin-top: 0;
+    color: #333;
+    font-size: 18px; /* Slightly larger for heading */
+}
+
+#descriptionBox p {
+    font-weight: 400;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify; /* Justify the text */
+    margin-bottom: 15px; /* Add some space before the button */
+}
+
+#descriptionBox button {
+    display: block;
+    width: 100%; /* Make the button fit the box width */
+    padding: 8px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px; /* Match the font size with the text */
+}
+
+#descriptionBox button:hover {
+    background-color: #0056b3;
+}
